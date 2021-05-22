@@ -29,6 +29,7 @@ public class NewMessageServlet extends ChatServlet {
                 // Добавить в список сообщений новое
                 messages.add(new ChatMessage(message, author, Calendar.getInstance().getTimeInMillis()));
             }
+
         }
         // Перенаправить пользователя на страницу с формой сообщения
         response.sendRedirect("/Lab_8/compose_message.html");
