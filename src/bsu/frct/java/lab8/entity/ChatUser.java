@@ -12,7 +12,6 @@ public class ChatUser {
     //Количество пользователей
     private static int Kol = 0;
 
-
     public ChatUser(String name,long lastInteractionTime,String sessionId) {
         super();
         this.name = name;
