@@ -33,4 +33,6 @@ public class NewMessageServlet extends ChatServlet {
         // Перенаправить пользователя на страницу с формой сообщения
         response.sendRedirect("/Lab_8/compose_message.html");
     }
+
+
 }
